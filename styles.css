@@ -1,0 +1,260 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+header {
+    background-color: #FFC0CB;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    color: #556B2F;
+    font-size: 24px;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFC0CB; /* Example background color */
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the size of your logo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #556B2F; /* Example hover color */
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('/images/lizzie-A4YhZ3Fe6rA-unsplash.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cta-button {
+    background-color: #556B2F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #FFC0CB;
+    color: #556B2F;
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+.section h3 {
+    font-family: 'Playfair Display', serif;
+    color: #556B2F;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #FFC0CB;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h4 {
+    font-family: 'Playfair Display', serif;
+    color: #556B2F;
+    margin: 15px 0;
+}
+
+.product-card p {
+    font-weight: bold;
+    color: #333;
+}
+
+.product-card button {
+    background-color: #FFC0CB;
+    color: #556B2F;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #556B2F;
+    color: white;
+}
+
+.about-us {
+    background: linear-gradient(135deg, #FFC0CB 0%, #FFF5F5 100%);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-us h3 {
+    font-family: 'Playfair Display', serif;
+    color: #556B2F;
+}
+
+.about-us p {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonials {
+    background-color: #FFF;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonials h3 {
+    font-family: 'Playfair Display', serif;
+    color: #556B2F;
+}
+
+.testimonial {
+    font-style: italic;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.testimonial .customer-name {
+    font-weight: bold;
+    color: #556B2F;
+}
+
+.testimonial .stars {
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #556B2F;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-icons {
+    margin-bottom: 15px;
+}
+
+footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: #FFC0CB;
+}
+
+footer .newsletter {
+    margin-bottom: 20px;
+}
+
+footer .newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #FFC0CB;
+    color: #556B2F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .newsletter button:hover {
+    background-color: #556B2F;
+    color: white;
+}

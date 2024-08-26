@@ -1,24 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My first website</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my first website.</p>
-    <h2>Web Security</h2>
-    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-    <p id="web-security-answer">I will recommend the client to make sure they use programs to sanitization of data, this will be for example use of the Sanitize-html package in NodeJS or other programs to sanitizing the SQL. 
-      Other recommendations will also get the client to research the use of authorization and programs for authentication. As always recommend using well-known third party applications and research these before implementing. 
-      If something seems to be to good to be true is free, there will probably be a reason.
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowerPower - Bouquet for every occation!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <a href="#">
+            <img src="/images/8bde635d-a03b-4a94-8047-9388909ac181.png" alt="FlowerPower Logo">
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
 
-I would recommend the client to have cyber security in mind in all the parts of the website, from start to finish. 
-This is a demanding task, but if everyone involved in the making of the website has security in mind the process of making the website more secure will be easier. Not only to secure the actual website, 
-but also to protect its users.
-However, this is a demanding task and require a lot of knowledge about cyber security. 
-If the client does not have the knowledge nor the funds to hire own security responsible employee in the organization, I would recommend they use money on outside resources to help to keep the website and its users secure. 
-Using money on security seems to a lot of clients to be an unnecessary use of funds, but the potentially loss of customers, funds, or the loss of reputation due to a security breech would damage the business so much more than 
-the cost of external use of security.
-</p>
-  </body>
+<section class="hero">
+    <div>
+        <h2>Bring Joy Home with Our bouquets</h2>
+        <a href="#" class="cta-button">Shop Now</a>
+    </div>
+</section>
+
+<section class="section">
+    <h3>Our Best Sellers</h3>
+    <div class="products">
+        <div class="product-card">
+            <img src="/images/thomas-william-T4sn1Nw1f98-unsplash.jpg" alt="Bouquet 1">
+            <h4>Summer bouquets</h4>
+            <p>399 kr</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="/images/georg-eiermann-s6hvBRK9zKI-unsplash.jpg" alt="Bouquet 2">
+            <h4>Rose bouquet</h4>
+            <p>299 kr</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="/images/lizzie-A4YhZ3Fe6rA-unsplash.jpg" alt="Bouquet 3">
+            <h4>Basket with flowers</h4>
+            <p>299 kr</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<section class="about-us">
+    <h3>Our Story</h3>
+    <p>FlowerPower was founded with a passion for flowers and a commitment to delivering beauty to every home.
+        Our hand-crafted bouquets are made with the freshest blooms to ensure long-lasting joy.</p>
+</section>
+
+<section class="testimonials">
+    <h3>What Our Customers Say</h3>
+    <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"The flowers were absolutely stunning and arrived right on time. Will definitely order again!"</p>
+        <div class="customer-name">- Emily R.</div>
+    </div>
+    <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"Beautiful bouquets and excellent customer service. Highly recommend FlowerPower!"</p>
+        <div class="customer-name">- Michael T.</div>
+    </div>
+</section>
+
+<footer>
+    <div class="social-icons">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
+    <p>&copy; 2024 Gøril Solheim</p>
+</footer>
+  
+</body>
 </html>
