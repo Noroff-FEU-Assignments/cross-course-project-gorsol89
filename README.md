@@ -1,6 +1,6 @@
 Rainy Days
+![Skjermbilde 2024-10-09 141403](https://github.com/user-attachments/assets/e62d7ea1-5824-45d1-b56e-ecbbd83c2d3d)
 
-![abdillah-studio-s-0M_onwesc-unsplash] (https://github.com/user-attachments/assets/254300a2-571c-489c-bbda-2f5657ebb41f)
 
 Rainydays - a assignment from Noroff where we should design a website that sells rainjackets.
 I had done this project under multiple subjects and made changes during the assignments. 
@@ -30,16 +30,17 @@ Images used on this website:
 
 Clone the repo:
 git clone git@github.com:NoroffFEU/cross-course-project-gorsol89.git
-Install the dependencies:
-npm install
-Running
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+
 
 To run site: 
 
-LINK TO WEBPAGE
+https://stupendous-monstera-e856ca.netlify.app/
 
 Contact
 
-LINK TO PERSONAL WEBPORTEFOLIO
+Send me a email to gorsol92726@stud.noroff.no
+
+You can also have a look at my personal website:
+
+https://sunny-kelpie-4a30c9.netlify.app/
 
