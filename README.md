@@ -1,5 +1,9 @@
 Rainy Days
+
+
 ![Skjermbilde 2024-10-09 141403](https://github.com/user-attachments/assets/e62d7ea1-5824-45d1-b56e-ecbbd83c2d3d)
+
+
 
 
 Rainydays - a assignment from Noroff where we should design a website that sells rainjackets.
@@ -23,7 +27,7 @@ CSS
 Javascript 
 
 Images used on this website:
-- Images of the jacets provided from Noroff
+- Images of the jackets provided from Noroff.
 - Images from Unsplash.com
 - AI Generated images from Midjourney. Some of the images from Unsplash.com is merged with the productimages so that appears to be real persons to wear the jackets.
 
